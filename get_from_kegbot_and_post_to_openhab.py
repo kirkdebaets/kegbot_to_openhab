@@ -93,7 +93,6 @@ if __name__ == '__main__':
     tempF = getKegbotTemp(kegbotThermUrl)
     print tempF
 
-    packedTempC = json.dumps(tempC)
     packedTempF = json.dumps(tempF)
 
     postToOpenhab(temperatureUrl,packedTempF)
