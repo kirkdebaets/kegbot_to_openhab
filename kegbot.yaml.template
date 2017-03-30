@@ -1,0 +1,5 @@
+base_url: <local URL in quotes>
+temperature_item_name: <openHAB item name>
+kegbot_url: <URL to base of kegbot in quotes, e.g. "http://kegbot.home">
+thermo_sensor_name:  <name of sensor as identified in Kegbot Admin: Edit Tap: TapName: Tap Settings>
+kegbot_api_key: <API key from your account page on your kegbot>
